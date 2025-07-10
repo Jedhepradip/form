@@ -12,6 +12,7 @@ const db = mongoose.connection;
 // even listeners
 // This is a Event listeners KeyWord
 
+
 db.on("connected",()=>{
     console.log(`Connected To MongoDB Server `);
 })
