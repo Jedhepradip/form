@@ -18,6 +18,7 @@ const authenticateUser = async (req, res, next) => {
     }
 };
 
+
 router.get("/", function (req, res) {
     res.render("demo")
 })
