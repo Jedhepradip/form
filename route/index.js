@@ -2,6 +2,7 @@ const express = require("express")
 const router = express.Router();
 const usermodel = require('./user')
 
+
 const authenticateUser = async (req, res, next) => {
     try {
         const { email, password } = req.body;
